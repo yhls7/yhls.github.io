@@ -1,35 +1,16 @@
-# NexT
+# 新开博客
 
-> 精于心，简于形
+> Be curious about the world
 
-NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来的 Jekyll 主题。<!--commit: f951075d9b739d26b42472431995fa68d08796aa-->
+## 写在前面
 
-<a href="http://simpleyyt.github.io/jekyll-theme-next/" target="_blank">在线预览 Preview</a> | <a href="http://simpleyyt.com" target="_blank">Yitao's Blog</a> | <a href="http://theme-next.simpleyyt.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
+平时学习记录了很多东西，新开一个博客，把以前写的一些东西都放到一块管理吧。
 
-[![Join the chat at https://gitter.im/simpleyyt/jekyll-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jekyll-theme-next/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+除了技术方面，可能还会记录点别的，比如心理学相关，说来惭愧，好像这一年多以来，看的书籍，心理学要比技术类书籍多的多，虽然我总共也没看几本书（衰）。
 
-![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
+## 保持好奇
 
+一边学习，一边记录，这是值得坚持的好习惯。保持好奇，保持记录，每天进步一点点，终会有所不同。
 
-## 浏览器支持 Browser support
-
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
-
-
-## 贡献 Contributing
-
-欢迎提交问题与需求，修复代码。
-
-
-## 开发 Development
-
-NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
-
-NexT is built for easily use with elegant appearance. First things first, always keep things simple.
-
-
-## 捐赠
-
-支付宝捐赠链接还是要有的，万一真的有人捐呢。
-
-![支付宝扫码捐赠](http://p1.bpimg.com/567571/9a4a158daee8aa69.png)
+## 其它
+该博客是用jekyll,使用[NexT主题](http://simpleyyt.github.io/jekyll-theme-next/)搭建而成，感谢开源的各位大神。
