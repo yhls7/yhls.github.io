@@ -1,7 +1,7 @@
 ---
 title: JS检测对象是否具有某个属性
-description: 
-categories: 技术相关
+description: JS检测对象属性
+categories: technology
 tags: JS
 ---
 
@@ -11,7 +11,7 @@ tags: JS
 
 非常符合语义，用于检测一个对象本身（**不包括原型链**）是否具有指定名称的属性，返回布尔值。
 
-```
+```javascript
 o = new Object();
 o.prop = 'exists';
 o.hasOwnProperty('prop');             // 返回 true
@@ -23,7 +23,7 @@ o.hasOwnProperty('hasOwnProperty');   // 返回 false
 
 如果要检测一个对象（**包括原型链**）是否具有指定名称的属性，则使用prop **in** object ,仍然返回布尔值。
 
-```
+```javascript
 // 数组
 var trees = new Array("redwood", "bay", "cedar", "oak", "maple");
 0 in trees        // 返回true
@@ -47,7 +47,7 @@ var mycar = {make: "Honda", model: "Accord", year: 1998};
 "toString" in {}; // 返回true
 ```
 注意：obj.hasOwnProperty(prop) 和 prop **in** obj中的prpo均为字符串或symbol
-```
+```javascript
 o = new Object();
 o.prop = 'exists';
 o.hasOwnProperty(prop);    // 返回 false
@@ -69,7 +69,7 @@ for...in 循环以任意序迭代一个对象的属性,不要在迭代过程中�
 for...in结合hasOwnPropetry可遍历对象本身的属性.
 
 非包装类型的对象hasOwnProperty和in只能检测对象创建时就有的属性，添加的属性不能检测
-```
+```javascript
 var a = [1,6,7];
 a[7] = 9;
 
@@ -91,7 +91,7 @@ Object.getOwnPropertyNames(obj)
 Object.keys() 
 返回一个由一个给定对象的自身可枚举属性组成的数组，数组中属性名的排列顺序和使用 for...in 循环遍历该对象时返回的顺序一致 （两者的主要区别是 一个 for-in 循环还会枚举其原型链上的属性）
 
-```
+```javascript
 var target = myObject;
 var enum_only = Object.keys(target);
 var indexInEnum = enum_only.indexOf(prpo);

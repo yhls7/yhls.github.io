@@ -1,7 +1,7 @@
 ---
 title: 如何组织一个sass项目
 description: 
-categories: 技术相关
+categories: technology
 tags: SASS
 ---
 
@@ -62,7 +62,7 @@ modules里存放的是reset,normalize以及一些可能会用到的IE hack写法
 compents里存放的是一些通用的UI组件样式，比如button,banner,dropdown等我都会把它们分类放到一个文件，结合mixin，管理和复用非常方便。
 
 helpers里面存放的是变量，宏，函数等，整个项目的通用变量都可以放到variable.scss里面，值得一提的是图片的路径也可以把它作为变量，开发阶段用本地相对路径，测试部署环节再把它替换为cdn路径，只用一次编译而无需查找替换。
-```
+```scss
 // _variables
 //$baseimgurl: '../images';
 $baseimgurl: 'cache.xxx.com/project';
@@ -76,7 +76,7 @@ $baseimgurl: 'cache.xxx.com/project';
 layout存放的是一些布局样式，pages存放页面样式，vendors存放第三方样式。
 
 main.scss(注意前面没有_)，作为SASS项目入口，不放任何样式文件，只引入其它文件。
-```
+```scss
 // Modules 
 @import "mudules/reset"; 
 
