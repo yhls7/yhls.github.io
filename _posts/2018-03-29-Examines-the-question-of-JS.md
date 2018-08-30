@@ -1,11 +1,11 @@
 ---
-title: JS一道面试题的探讨
+title: JS作用域的探讨
 description: 
 categories: technology
 tags: JS
 ---
 
-> 网上碰到一道关于JS作用域和闭包的问题，个人理解试着解析看看···
+> 最近在看JS作用域和闭包相关知识，找了几个问题试着解析看看···
 
 原题：
 ```javascript
