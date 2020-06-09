@@ -5,18 +5,10 @@ layout: layout
 {% assign __ = site.data.languages[site.language] %}
 {% include post.html %}
 
-<div id="container"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-  id: '页面 ID', // 可选。默认为 location.href
-  owner: 'AncoraYhls',
-  repo: 'yhls.github.io',
-  oauth: {
-    client_id: 'Iv1.dd89b8d977d1ca21',
-    client_secret: 'ab261c9208c50f624318f77c77d6e775fe8d5847',
-  },
-})
-gitment.render('container')
+<script src="https://utteranc.es/client.js"
+  repo="AncoraYhls/yhls.github.io"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
 </script>
