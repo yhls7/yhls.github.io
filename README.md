@@ -2,6 +2,8 @@
 
 > Be curious about the world
 
+github pages: https://yhls7.github.io/yhls.github.io/
+
 ## 写在前面
 
 平时学习记录了很多东西，新开一个博客，把以前写的一些东西都放到一块管理吧。
